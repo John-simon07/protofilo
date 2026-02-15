@@ -1,0 +1,425 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    scroll-behavior:smooth;
+}
+
+.main{
+    background: url('img/finalb.avif');
+    background-size: cover;
+    filter: brightness(0.9);
+    position: relative;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+  
+}
+
+
+/* frist nav start */
+
+.one{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 120px;
+    /* background-color: #262424; */
+    border: 0;
+    margin: 0;
+    border: transparent;
+}
+
+.one ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    padding: 10px 0px;
+}
+
+.one ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.one a:hover{
+    color: #1bb1a1;
+}
+
+.one h3{
+    color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* frist nav end */
+
+/* mid content one */
+
+.two{
+padding: 150px 50px;
+
+}
+.two p{
+    padding: 15px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    &:hover{
+    color: #1bb1a1;
+}
+}
+.two h1{
+padding: 5px 10px;
+text-transform: uppercase;
+color: white;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-seri;
+&:hover{
+    color: #1bb1a1;
+}
+}
+
+.three{
+   padding: 5px 8px;
+   
+   
+}
+
+.three svg{
+   padding: 2px;
+}
+/* mid content end */
+.four{
+    display: flex;
+    flex-direction: row;
+    padding: 100px 100px;
+    gap: 50px;
+    background-color: #ffffff;
+}
+
+.six {
+   text-align: left;
+  
+}
+
+.six h1{
+    color: #292929;
+   
+    
+}
+
+.six :title{
+     &:hover{
+        color: #1bb1a1;
+    }
+}
+
+.six p{
+    line-height: 2;
+}
+
+.seven{
+    display: flex;
+   gap: 10px;
+    padding: 30px 00px;
+    
+}
+
+.seven button{
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color:#292929;
+    cursor: pointer;
+    &:active{
+       color: lightgrey;
+    }
+    
+}
+
+.seven a{
+    color: white;
+    text-decoration: none;
+}
+/* main whole end */
+
+/* second main */
+
+.eight{
+    width: 100%;
+    background-color: #494c54;
+    border: transparent;
+    margin: auto;
+}
+
+
+
+.nine{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   align-items: center;
+   justify-content: space-between;
+   padding: 50px 120px;
+  width: 100%;
+   background-color:#ffffff;
+   gap: 250px;
+   border: 0;
+   margin: auto;
+}
+
+.ten{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.john p{
+    color:#292929;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+.ten h1{
+    color:#292929;
+}
+/* second main end */
+
+/* third start */
+.thirdsection{
+    background-color: white;
+}
+
+
+.elven{
+    background-color: white;
+   
+}
+
+.twelve {
+color:#292929;
+text-align: center;
+background-color:white;
+font-weight: bold;
+font-size: 25px;
+border: 0;
+
+}
+
+.fourteen{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding: 20px 50px;
+    gap: 20px;
+    border: 0;
+    background-color: white;
+  
+}
+
+.fifteen img{
+    border-radius: 20px;
+    border: 0;
+    background-color: white;
+    
+
+}
+
+.thirteen{
+    background-color: white;
+    border: 0;
+    margin: 0;
+}
+
+.fifteen{
+    border: 0;
+    background-color: white;
+}
+
+/* end*/
+
+/* footer start */
+.end{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 20px 120px;
+    gap: 50px;
+    background-color: #27272f;
+}
+
+/* first footer */
+
+.footer1 h2{
+    padding: 5px;
+    color: white;
+}
+
+.footer1 P{
+    padding: 5PX;
+    text-align: left;
+    color:white;
+}
+/* end */
+
+/* second footer */
+
+.footer2 h3{
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.footer2 ul{
+    list-style: none;
+}
+
+
+.footer2 ul li a{
+    text-decoration: none;
+    color: white;
+    line-height: 2;
+   
+    font-size: 15px;
+}
+/* end */
+
+/* third footer */
+
+.foot{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 2px;
+    color: white;
+}
+
+.mail a{
+    color: white;
+    text-decoration: none;
+}
+
+.foot1 h3{
+    color: white;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+/* end */
+
+/* fourth footer */
+.ssk{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 20px;
+}
+
+.sss h3{
+    color: white;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+/* end */
+
+
+
+/* footer bottom */
+
+.navdd {
+    background-color:#27272f;
+
+}
+
+.nacc ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 15px;
+    list-style: none;
+
+}
+
+.nacc ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    padding: 15px;
+}
+
+.nacc p {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: center;
+    padding: 15px;
+    font-size: 15px;
+}
+
+/* end */
+
+/* footer end */
+
+/* scroll button */
+
+body {
+    height: 2000px;
+    /* demo scroll */
+    font-family: Arial;
+}
+
+/* Arrow Button */
+.up-btn {
+    position: fixed;
+    right: 20px;
+    bottom: 70px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: none;
+    background: black;
+    font-size: 18px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Help Box Right Side */
+.help-box {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background: #fff;
+    border-radius: 25px;
+    padding: 8px 15px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+}
+
+.help-box input {
+    border: none;
+    outline: none;
+    margin-left: 8px;
+    font-size: 14px;
+}
+
